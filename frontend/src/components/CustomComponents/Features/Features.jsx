@@ -11,7 +11,10 @@ import Paypal from "../../../assets/Paypal.png";
 import Linkedin from "../../../assets/LinkedIn.png";
 import Barchart from "../Charts/Barchart"
 import { IconCircle } from "./IconCircle";
-import Social from '../../../assets/Social.png'
+import Community from '../../../assets/Community.png'
+import dsa from '../../../assets/dsa.png'
+import skecthbook from '../../../assets/skecthbook.png'
+
 
 function Features() {
   const { theme } = useTheme();
@@ -61,10 +64,11 @@ function Features() {
                 <Barchart chartData={chartData} chartConfig={chartConfig}/>
               )}
             </div> */}
+            <img src={skecthbook} alt="" className="px-2"/>
 
             <p className=" font-bold pt-4">Coskectch</p>
             <p className=" pb-4 w-2/3 text-center">
-             Collabrative Drawing Platform
+             Collabrative Drawing and Note taking Platform 
             </p>
           </div>
           <div className="col-span-6 row-span-26 bg-gray-100 rounded-lg flex flex-col justify-center items-center  hover:shadow-xl">
@@ -72,14 +76,14 @@ function Features() {
               {/* {isInView && <TableData classname={"w-fit mx-auto border-2 bg-white  "} />} */}
               {isInView &&  <IconCircle/>}
             </div>
-            <h1 className=" font-bold pt-4">Get investment Suggestion</h1>
-            <div>Get the valuation and suggestion using various technology</div>
+            <h1 className=" font-bold pt-4">AI Tools</h1>
+            <div>AI tools for Learning in Better Way</div>
           </div>
 
           <div className="col-span-4 row-span-26 hover:shadow-lg flex flex-col justify-start items-center rounded-2xl">
-            {/* <div className=" row-span-9 bg-gray-100">
-              <img src={Social} alt="" className="px-2"/>
-            </div> */}
+            <div className=" row-span-9 bg-gray-100">
+              <img src={Community} alt="" className="px-2"/>
+            </div>
             <div className=" row-span-3">
               <p className=" font-bold p-2"> Community Platoform for Student</p>
               <p className=" px-2">Get announcement of upcoming educational sessions </p>
@@ -89,15 +93,15 @@ function Features() {
           <div className="col-span-4 row-span-26 grid grid-rows-12 gap-2">
             <div className="row-span-8 rounded-xl flex justify-center ">
               <img
-                src={Coaching}
+                src={dsa}
                 alt=""
                 className=" rounded-xl"
               />
             </div>
             <div className="row-span-4 ">
-              <p className=" font-bold">Free Guidance</p>
+              <p className=" font-bold">DSA Chllenge 1 vs 1</p>
               <p>
-                Get free guidance on how to start and what to do using available courses
+                Full 1 vs 1 challenge to grind Data Structures and Algorithm
               </p>
             </div>
           </div>
@@ -115,9 +119,9 @@ function Features() {
               <img src={Slack} alt="" className="  rounded-2xl   w-32" />
             </div>
             <div className="col-span-4  row-span-4">
-              <p className=" font-bold ">payment Integration</p>
+              <p className=" font-bold ">Authentication Integration</p>
               <p className="">
-               abab
+          User can login with differnet Platform like Github, Mail, AppleID
               </p>
             </div>
           </div>

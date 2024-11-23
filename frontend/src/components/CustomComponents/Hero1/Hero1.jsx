@@ -56,7 +56,7 @@ function Hero1() {
               />
             </p>
             <p className="hero-text text-lg my-2 font-light max-w-3xl mx-auto text-center">
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+            A Collaborative Platform for Online Learning, Drawing, and Note-Taking
             </p>
           </div>
           <div className="hero1-img my-3">
